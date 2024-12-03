@@ -4,7 +4,7 @@ import rigoBaby from "../../img/rigo-baby.jpg"
 
 export const Card = (props) => {
     return (
-        <div className="card" style={{width: "18rem"}}>
+        <div className="card p-0 col-11 col-lg">
           <img src={props.imageUrl} className="card-img-top" alt={`${props.imageAlt} profile pic`} />
           <div className="card-body">
             <h5 className="card-title">{props.title}</h5>

@@ -3,7 +3,7 @@ import { Card } from "./Card.jsx"
 
 export const CardList = () => {
     return (
-        <div className="row gap-4">
+        <div className="row gap-4 justify-content-center px-5">
             <Card 
                 imageUrl={"https://randomuser.me/api/portraits/men/58.jpg"} 
                 imageAlt={"Clarence Nichols"} 
